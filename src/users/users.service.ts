@@ -11,4 +11,8 @@ export class UsersService {
     const newUser = new this.userModel({ username: username });
     return newUser.save();
   }
+
+  findAll() {
+    return this.userModel.find().exec();
+  }
 }
