@@ -26,9 +26,11 @@
   "dependencies": {
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
+    "@nestjs/mongoose": "^8.0.1",
     "@nestjs/platform-express": "^8.0.0",
     "autoprefixer": "^10.3.4",
     "cssnano": "^5.0.8",
+    "mongoose": "^6.0.5",
     "postcss": "^8.3.6",
     "postcss-cli": "^8.3.1",
     "pug": "^3.0.2",
